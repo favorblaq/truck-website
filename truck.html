@@ -95,18 +95,14 @@
         <div class="modal-body">
           <!-- <form class="row g-3" style="color: #02245B;"> -->
             <div class="col">
-              <label for="inputName" class="form-label driver-name">DRIVER'S FIRSTNAME</label>
+              <label for="inputName" class="form-label driver-name">DRIVER'S FIRSTNAME:</label>
               <input type="text" class="form-control driver-fn-input" id="inputText4" placeholder="FirstName">
-              <div class="icon">
-                <i class="fa-solid fa-user" style="color: #FF5E14;"></i>
-              </div>
+          
             </div><br>
             <div class="col">
-              <label for="inputName" class="form-label driver-name">DRIVER'S LASTNAME</label>
+              <label for="inputName" class="form-label driver-name">DRIVER'S LASTNAME:</label>
               <input type="text" class="form-control driver-fn-input" id="inputText4" placeholder="LastName">
-              <div class="iconx">
-                <i class="fa-solid fa-user" style="color: #FF5E14;"></i>
-              </div>
+          
             </div><br>
          
            <div class="col">
@@ -1078,24 +1074,20 @@
               <form action="/action_page.php">
                 <label for="phone" style="font-family:  'Acme', sans-serif;">DRIVER'S PHONE NUMBER: </label>
                 <input type="tel" id="phone" class="form-control driver-fn-input" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>  
-                <div class="icon2">
-                  <i class="fa-solid fa-phone" style="color: #FF5E14;"></i>
-                </div>   
+              
               </form>
-            </div>
+            </div><br>
            
   
             <div class="col">
-              <label for="inputEmail4" class="form-label">E-MAIL ADDRESS</label>
+              <label for="inputEmail4" class="form-label">E-MAIL ADDRESS:</label>
               <input type="email" class="form-control driver-fn-input" id="inputEmail4" placeholder="E-mail">
-                <div class="icon3">
-                  <i class="fa-solid fa-envelope" style="color: #FF5E14;"></i>
-                </div>
+             
             </div> <br>
          
           <form action="/action_page.php" style="font-family:  'Acme', sans-serif;">
           <label for="cars" style="font-family:  'Acme', sans-serif;">SELECT GENDER:</label>
-          <select name="gender" class="gender" id="gender">
+          <select name="gender" class=" form-select" id="gender">
           <option value="Male">Male</option>
           <option value="Female">Female</option>
           </select>  
@@ -1108,101 +1100,94 @@
           <div class="col">
             <label for="inputEmail4" class="form-label driver-fn">VEHICLE TYPE:</label>
             <input type="text" class="form-control driver-fn-input" id="inputText4" placeholder="Vehicle type">
-            <div class="icon4">
-              <i class="fa-solid fa-truck-front" style="color: #FF5E14;"></i>
-            </div>
+          
           </div><br>
   
           <div class="col">
             <label for="inputEmail4" class="form-label driver-fn">VEHICLE NAME:</label>
             <input type="text" class="form-control driver-fn-input" id="inputText4" placeholder="Vehicle Name">
-            <div class="icon5">
-              <i class="fa-solid fa-truck-front" style="color: #FF5E14;"></i>
-            </div>
+        
           </div><br>
           
           <div class="col">
             <label for="inputEmail4" class="form-label driver-fn">VEHICLE REG. NUMBER:</label>
             <input type="text" class="form-control driver-fn-input" id="inputText4" placeholder="Vehicle Reg. Number">
-            <div class="icon6">
-              <i class="fa-duotone fa-hashtag" style="color: #FF5E14;"></i>
-            </div>
-          </div><br>
-  
-
            
-            <form action="/action_page.php" style="font-family: 'Acme', sans-serif;">
-              <label for="myfile" style="font-family: 'Acme', sans-serif;">VEHICLE PICTURES:</label>
-              <input type="file" id="myfile" name="myfile" multiple>
-            </form><br>
+          </div><br>
+
+            <div class="mb-3">
+              <label for="formFile" class="form-label driver-fn">VEHICLE PICTURE(FRONT SIDE):</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <div class="mb-3">
+              <label for="formFile" class="form-label"driver-fn>VEHICLE PICTURE(BACK SIDE):</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <div class="mb-3">
+              <label for="formFile" class="form-label"driver-fn>VEHICLE PICTURE(LEFT SIDE):</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <div class="mb-3">              
+              <label for="formFile" class="form-label DRIVER-FN">VEHICLE PICTURE(RIGHT SIDE):</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            
   
             <div class="col">
               <label for="inputEmail4" class="form-label driver-fn">VEHICLE SIZE:</label>
               <input type="text" class="form-control driver-fn-input" id="inputText4" placeholder="Vehicle Size">
-              <div class="icon7">  
-                <i class="fa-solid fa-truck-front" style="color: #FF5E14;"></i>
-              </div>
+              
             </div><br>
   
             <div class="col">
               <form action="/action_page.php">
                 <label for="phone" class="telephone">VEHICLE NUMBER OF TYRES: </label>
                 <input type="tel" id="phone" class="form-control driver-fn-input" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
-                <div class="icon8">
-                <i class="fa-solid fa-circle-xmark" style="color: #FF5E14;"></i>
-                </div>   
+             
               </form>
              
             </div>
-            
             
             <div class="col">
               <form action="/action_page.php">
                 <label for="phone" class="telephone">VEHICLE TONNAGE: </label>
                 <input type="tel" id="phone" class="form-control driver-fn-input" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
-                <div class="icon9">
-                  <i class="fa-solid fa-weight-hanging" style="color: #FF5E14;"></i>
-                </div>   
+                 
               </form>
-            </div>
+            </div><br>
             
   
             
             <div class="col form-details">
-              <label for="inputEmail4" class="form-label driver-fn">VEHICLE COLOR:</label>
+              <label for="inputEmail4" class="form-label driver-fn">VEHICLE COLOUR:</label>
               <input type="text" class="form-control driver-fn-input" id="inputText4" placeholder="Vehicle color">
-              <div class="icon10">
-                <i class="fa-solid fa-droplet" style="color: #FF5E14;"></i>
-              </div>
+            
             </div>
   
             <div class="container fw-bold text-center mt-3 mb-3" style="font-family:'Acme', sans-serif; color: #FF5E14;">
               WHO APPROVES JOBS
-            </div>
+            </div><br>
             
          
             <div class="col form-details">
               <label for="inputEmail4" class="form-label driver-fn">VEHICLE OWNER NAME:</label>
               <input type="text" class="form-control driver-fn-input" id="inputText4" placeholder="Vehicle owner name">
-              <div class="icon11">
-                <i class="fa-solid fa-user" style="color: #FF5E14;"></i>
-              </div>
+              
             </div><br>
             
             <div class="col form-details">
               <label for="inputEmail4" class="form-label driver-fn">VEHICLE OWNER PHONE:</label>
               <input type="tel" id="phone" class="form-control driver-fn-input" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
-              <div class="icon12">
-                <i class="fa-solid fa-phone" style="color: #FF5E14;"></i>
-              </div>  
-            </div>
+              
+            </div><br>
   
             <div class="col form-details">
               <label for="inputEmail4" class="form-label driver-fn">VEHICLE OWNER'S E-MAIL:</label>
               <input type="email" class="form-control driver-fn-input" id="inputText4" placeholder="Vehicle owner E-mail">
-              <div class="icon13">
-                <i class="fa-solid fa-envelope" style="color: #FF5E14;"></i>
-              </div>
+              
             </div><br>
              
   
@@ -1228,6 +1213,7 @@
   </div>
   </div>
 </div>
+           
             </ul>
           </div>
         </div>
