@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Rubik', sans-serif;
+}
+.contact-content{
+    background: #FF5E14;
+    padding-left: 20px;
+    padding-right: 40px;
+
+}
+.navbar-brand{
+ background: #FF5E14;   
+ padding-left: 20px;
+ padding-right: 40px;
+ color: white;
+ transform: skewX(-10deg);
+ margin-left: -15px;
+ overflow: hidden;
+
+}
+.form1{
+  max-width: 40rem;
+  max-height: 300rem;
+  font-family: 'Acme', sans-serif;
+  color: #02245B; 
+}
+
+.form-label, .form-control, .telephone, .gender{
+  font-family: 'Acme', sans-serif;
+  color: #02245B;
+}
+
+
+.driver-name{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  top: 55px;
+  left: 25px;
+}
+.iconx{
+  position: absolute;
+  top: 149px;
+  left: 25px;
+}
+.icon2{
+  position: absolute;
+  top: 26rem;
+  left: 25px;
+}
+.icon3{
+  position: absolute;
+  top: 30.4rem;
+  left: 25px;
+}
+.icon4{
+  position: absolute;
+  top: 41.4rem;
+  left: 25px;
+}
+.icon5{
+  position: absolute;
+  top: 47rem;
+  left: 25px;
+}
+.icon6{
+  position: absolute;
+  top: 53rem;
+  left: 25px;
+}
+.icon7{
+  position: absolute;
+  top: 58rem;
+  left: 23px;
+}
+.icon8{
+  position: absolute;
+  top: 63.6rem;
+  left: 23px;
+}
+.icon9{
+  position: absolute;
+  top: 67.5rem;
+  left: 23px;
+}
+.icon10{
+  position: absolute;
+  top: 71.7rem;
+  left: 23px;
+}
+.icon11{
+  position: absolute;
+  top: 79.5rem;
+  left: 23px;
+}
+.icon12{
+  position: absolute;
+  top: 85.5rem;
+  left: 23px;
+}
+.icon13{
+  position: absolute;
+  top: 89.8rem;
+  left: 23px;
+}
+.driver-fn-input::placeholder{
+  padding-left: 10px;
+  color: rgb(208, 208, 208);
+
+}
+
+.driver-fn-input{
+  padding-left: 26px;
+}
+
+.driver-fn-input:placeholder-shown{
+  padding-left: 26px;
+  
+}
+.gender{
+  border-color: #FF5E14;
+  width: 5rem;
+}
+
+.carousel-item{
+    position: relative;
+    background: no-repeat scroll center scroll; 
+    -webkit-background-size: cover;
+}
+.carousel-item img{
+  height: 650px;
+  object-fit:fill; 
+}
+.carousel-item::before { 
+    content:""; 
+    display:block; 
+    position: absolute; 
+    top:0; 
+    left:0; 
+    bottom:0; 
+    right:0; 
+    background: rgb(2, 17, 43); 
+    opacity:0.7; 
+    z-index: 1;
+}
+.carousel-item h1{
+  font-size: 70px;
+}
+.carousel-text{
+  transform: translate(15%, -180%);
+  
+}
+.truck-driver{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.picture {
+    /* overflow: hidden; */
+    /* margin: 8px; */
+    min-width: 240px;
+    max-width: 320px;
+    width: 100%;
+  }
+  
+  .truck-for-rental {
+    /* transition: all 0.3s;
+    box-sizing: border-box;*/
+    max-width: 100%; 
+    display: inline-block;
+    color: #FF5E14;
+    border: none;
+
+    cursor: pointer;
+    
+    /* Apply the pulse animation */
+    animation: pulse 1s infinite;
+  }
+  
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+ 
+  .pulse-button {
+    /* Button default styles, customize them to match your button */
+    display: inline-block;
+    color: #FF5E14;
+    border: none;
+
+    cursor: pointer;
+    
+    /* Apply the pulse animation */
+    animation: pulse 1s infinite;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .pulse-button:hover{
+    color: #f2f2f2;
+    border: solid 3px #FF5E14;
+    
+  }
+ .search-filter-btn{
+  background: #FF5E14; 
+  border: none; 
+  color: #02245B;
+ }
+ .search-filter-btn:hover{
+  background: #FF5E14;
+  color: #f2f2f2;
+
+ }
+  
+
+    .drivers-informations{
+      background: #f2f2f2;
+    }
+   
+  .driver-2-content, .driver-3-content, .driver-1-content{
+    border: solid 1px #ff5e1400;
+    background: white;
+    border-radius: 10px;
+ 
+  }
+  
+  .drivers-profile{
+    background:rgba(2, 17, 43, 0.1); 
+  }
+
+  .search-area{
+    background: linear-gradient(rgba(2, 17, 43, 0.164), rgba(2, 17, 43, 0.164)), url(./img/h1_hero.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .load-more-btn{
+    background:linear-gradient( 117deg,rgba(255,106,11,1) 0%,rgba(255,165,107,1) 32%,rgba(255,106,11,1) 32%,rgba(255,106,11,1) 39%,rgba(255,165,107,1) 39%,rgba(255,165,107,1) 43%,rgba(255,106,11,1) 43%)!important;
+    color: #02245B;
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    font-size: x-large;
+  }
+  .load-more-btn:hover{
+    border: solid;
+    border-color: #02245B;
+    background: none;
+    color: #02245B;
+  }
+
+
+  @media (width < 768px) {
+    .driver-1{
+    max-width: 450px;
+    margin: auto;
+
+ 
+    }
+    .search-area{
+      max-width: 350px;
+    
+    }
+  }
+  /* .driver-profile {
+    position: relative;
+    width: 50%;
+    border: none;
+  }
+  
+  .driver {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(2, 17, 43);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    z-index: -1;
+  }
+  
+  .driver-profile:hover .overlay {
+    height: 50%;
+    z-index: 1;
+  }
+   */
+  /* .text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  } */
